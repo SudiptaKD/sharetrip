@@ -5,7 +5,7 @@ import panel2Icon from '../assets/icons/coins.svg'
 import panel34Icon from '../assets/icons/lightning.svg'
 import leftArrow from '../assets/icons/left.svg'
 import rightArrow from '../assets/icons/right.svg'
-import Coin from '../assets/icons/Tripcoin.svg'
+import Coin from '../assets/icons/tripcoin.png'
 import right from '../assets/icons/rightdot.svg'
 import left from '../assets/icons/dot.svg'
 import Bus from '../assets/icons/ticketBus.svg'
@@ -92,7 +92,8 @@ const CenterLayout = () => {
                                     <div className=" col-sm-2 right-top m-0"  >
                                         <div className="row ">
                                             <div className="col-sm-6 p" >
-                                                <img src={Coin} alt ="coin" />
+                                                <img src={Coin} alt ="coin"
+                                                style={{height:'20px', width:'22px'}} />
                                                 </div>
                                             <div className="col-sm-6" ><p>55</p></div>
                                         </div>
