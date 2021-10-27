@@ -1,0 +1,8 @@
+@import "./navbar";
+@import "./searchmodifier";
+@import "./centerlayout";
+
+@media screen and (max-width: 1367px) {
+  $grid-columns: 20;
+  $grid-gutter-width: 0.5rem;
+}
